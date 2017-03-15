@@ -62,7 +62,7 @@ def update_bullets(bullets):
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
-    print(len(bullets))#used to check bullets are removed
+    # print(len(bullets))# used to check bullets are removed
 
 
 def fire_bullet(ai_settings, screen, ship, bullets):
